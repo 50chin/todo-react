@@ -1,9 +1,10 @@
 import clsx from 'clsx';
 import s from './Button.module.scss';
 
-export const Button = ({ children, variant }) => {
+export const Button = ({ children, variant, onClick }) => {
   return (
     <button
+      onClick={onClick}
       className={
         variant === 'icon'
           ? s.button_icon
