@@ -1,7 +1,18 @@
 .input {
   &_text {
-    padding: 15px;
+    padding-left: 15px;
     width: 356px;
     height: 39px;
+  }
+
+  &_checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: #7749f8;
+
+    &:checked ~ p {
+      text-decoration: line-through;
+      color: #7f8993;
+    }
   }
 }
