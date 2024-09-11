@@ -1,0 +1,21 @@
+.button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+
+  &_add {
+    background: #272829;
+    width: 166px;
+    height: 39px;
+  }
+
+  &_deleteCompleted {
+    background: #6c757d;
+  }
+
+  &_deleteAll {
+    background: #dc3545;
+  }
+}
