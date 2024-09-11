@@ -6,7 +6,7 @@ export const Input = ({ type, placeholder }) => {
     <input
       className={clsx(s.input, {
         [s.input_text]: type === 'text',
-        [s.input_check]: type === 'check',
+        [s.input_checkbox]: type === 'checkbox',
       })}
       type={type}
       placeholder={placeholder}
